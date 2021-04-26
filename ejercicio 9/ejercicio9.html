@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio9</title>
+</head>
+<body>
+    <script>
+       let grados=parseInt(window.prompt("Escribe cuantos grados hace hoy donde vives"))
+       if(grados > 40){
+        console.log('Vete a otro sitio');
+       }
+
+        else if(((grados>=30) || (grados<=40)) && (grados>29)){
+               console.log('Enciende el aire acondicionado');
+        }
+
+        else if (((grados>=20) || (grados<=30)) && (grados>19)){
+               console.log('No hagas nada');
+        }
+
+        else if(((grados>=10) || (grados<=20))&&(grados>9)){
+               console.log('Enciende la calefacción');
+        }
+        else{console.log('Vete a otro sitio')};
+
+
+    </script>
+    
+</body>
+</html>

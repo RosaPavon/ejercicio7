@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio19</title>
+</head>
+<body>
+    <script>
+      let num1= parseInt(window.prompt("La nota del primer examen sobre 5"))
+      let num2= parseInt(window.prompt("La nota del segundo examen sobre 5"))
+      let num3= parseInt(window.prompt("La nota del tercer examen sobre 5"))
+      if (num1>num2){
+          let notamedia= num1+num3
+
+          if (notamedia===10){
+              console.log("Matrícula")
+          }
+          else if (((notamedia>=9) || (notamedia<=10)) && (notamedia>8)){
+            console.log("Sobresaliente")
+
+          }
+          else if (((notamedia>=7) || (notamedia<=9)) && (notamedia>6)){
+            console.log("Notable")
+
+          }
+          else if (((notamedia>=6) || (notamedia<=7)) && (notamedia>5)){
+            console.log("Bien")
+
+          }
+          else if (((notamedia>=5) || (notamedia<=6)) && (notamedia>4)){
+            console.log("Suficiente")
+
+          }
+          else {console.log("Suspenso")
+
+          }
+
+      }
+      if (num1<=num2){
+          let notamedia= num2+num3
+
+          if (notamedia===10){
+              console.log("Matrícula")
+          }
+          else if (((notamedia>=9) || (notamedia<=10)) && (notamedia>8)){
+            console.log("Sobresaliente")
+
+          }
+          else if (((notamedia>=7) || (notamedia<=9)) && (notamedia>6)){
+            console.log("Notable")
+
+          }
+          else if (((notamedia>=6) || (notamedia<=7)) && (notamedia>5)){
+            console.log("Bien")
+
+          }
+          else if (((notamedia>=5) || (notamedia<=6)) && (notamedia>4)){
+            console.log("Suficiente")
+
+          }
+          else {console.log("Suspenso")
+
+          }
+
+      }
+      
+
+
+
+
+    </script>
+    
+</body>
+</html>
